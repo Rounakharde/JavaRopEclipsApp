@@ -16,11 +16,18 @@ public class App
 	{
 		return x*y;
 	}
+
 	public String revers(String name)
 	{
 		StringBuffer sb=new StringBuffer(name);
 		sb.reverse().toString();
 		return name;
+
+	}
+	public int divide(int x,int y)
+	{
+		return x/y;
+
 	}
     public static void main( String[] args )
     {
