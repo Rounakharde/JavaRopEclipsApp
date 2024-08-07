@@ -16,6 +16,12 @@ public class App
 	{
 		return x*y;
 	}
+	public String revers(String name)
+	{
+		StringBuffer sb=new StringBuffer(name);
+		sb.reverse().toString();
+		return name;
+	}
     public static void main( String[] args )
     {
         App app=new App();
